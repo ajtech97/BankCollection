@@ -1,0 +1,114 @@
+#loginform {
+    position: absolute;
+    transition: .3s;
+    box-shadow: 0px 0px 10px #777777;
+    height: 350px;
+    width: 400px;
+    border-radius: 5px;
+    margin-left: 50%;
+    left: -200px;
+    top: 120px;
+    background-color: rgba(255, 255, 255, .5);
+}
+
+#loginform:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.username
+{
+    
+    width: 300px;
+    height: 40px;
+    
+}
+
+.username {
+    top: 100px;
+}
+
+
+#subb {
+    
+    background-color: rgb(33,150,243);
+    color: white;
+    width: 300px;
+    height: 45px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+
+#title1 {
+    color: white;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    background: rgb(33,150,243);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#fp {
+    position: absolute;
+    color: #4CAF50;
+    top: 300px;
+    width: 100%;
+    display: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+    
+    font-size: 13px;
+}
+
+::-moz-placeholder {
+    
+    font-size: 13px;
+}
+
+
+/* firefox 19+ */
+
+:-ms-input-placeholder {
+    
+    font-size: 13px;
+}
+
+
+/* ie */
+
+input:-moz-placeholder {
+    
+    font-size: 13px;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .pass{
+        margin-left: 25px;
+    } 
+    .mdl-layout-title{
+        font-size: 17px !important;
+        margin-left: -50px;
+    }
+    #title1{
+        font-size: 17px !important;
+    }
+    #loginform{
+         height: 350px;
+         width: 350px;
+         left: -175px;
+         top:60px;
+    }
+    #subb{
+        font-size: 12px !important;
+        margin-left: 25px !important;
+    }
+}

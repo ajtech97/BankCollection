@@ -1,0 +1,471 @@
+  #showdate{
+            font-size: 20px;
+            font-family: sans-serif;
+            font-weight: 600;
+            color: dimgrey;
+            position:relative;
+            left:50%;
+            margin-left:-150px;
+            text-align:center;
+            width: 250px;
+
+        }
+#gross{background-color:#00BCD4;cursor:default;font-weight:600;height:40px;width:200px;text-align:center;border-radius:3px;position: relative;left: 50%;margin-left: -80px;}
+#grosslabel{color:#00BCD4;position: relative;left: 50%;margin-left: -35px;margin-top:-100px;}
+
+/*position: relative;left: 50%;margin-left: -80px;*/
+ #cntdiv{
+        position: relative;
+        top: 20px;
+        left: 50%;
+        margin-left: -750px;
+        width: 206px;
+/*        border: solid;*/
+    }
+#emplo,#custcount,#procnt,#vencnt{background-color:#00BCD4;cursor:default;font-weight:600;height:40px;width:200px;text-align:center;border-radius:3px;}
+#emplolabel,#custlabel,#prolabel,#venlabel{color:#00BCD4;margin-left: 40px;margin-top: -25px;}
+/*position: relative;left: 50%;margin-left: -35px;margin-top:-100px;*/
+
+
+@media only screen and (max-width:1425px){
+
+     #cntdiv{
+        position: relative;
+        top: 20px;
+        left: 50%;
+        margin-left: -600px;
+        width: 206px;
+    }
+
+}
+
+@media only screen and (max-width:1250px){
+     #cntdiv{
+        position: relative;
+        top: 20px;
+        left: 50%;
+        margin-left: -550px;
+        width: 206px;
+    }
+
+}
+
+
+@media only screen and (max-width:1160px){
+     #cntdiv{
+        position: relative;
+        top: 20px;
+        left: 50%;
+        margin-left: -500px;
+        width: 206px;
+    }
+
+}
+
+@media only screen and (max-width: 1625px) {
+    #gross{
+        margin-left: -200px;
+    }
+    #grosslabel{
+        margin-left: -150px;
+    }
+}
+@media only screen and (max-width: 1100px) {
+
+    #addinvbtn{
+      top: 60px;
+      position: relative;
+    }
+    #searchbar{
+      left: 50%;
+        margin-left: -100px;
+    }
+    /* #addpurbtn{
+       top: 50px;
+        left: 50%;
+        margin-left:-320px;
+      position: relative;
+    } */
+
+    .headtitle{
+      left:50%;
+      margin-left: -60px;
+    }
+
+    table, thead, tbody, th, td, tr {
+    display: block;
+    }
+
+  thead {
+    display: none;
+  }
+
+  .mdl-data-table tbody tr {
+    height: auto;
+  }
+
+  .mdl-data-table tbody tr:nth-child(even) {
+    background-color: #eee;
+  }
+
+  .mdl-data-table td,
+  .mdl-data-table td:first-of-type {
+    padding-left: 50%;
+
+  }
+
+  .mdl-data-table td:before {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding: 6px 18px 0;
+    white-space: nowrap;
+    content: attr(data-label);
+    text-align: left;
+    color: rgba(0, 0, 0, 0.54118);
+    font-weight: bold;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+  }
+
+  .mdl-data-table td:last-of-type {
+    padding-right: 18px;
+  }
+
+    .tabone{
+        font-size: 10px;
+    }
+    .tabtwo{
+        font-size: 10px;
+    }
+    .tabthree{
+        font-size: 10px;
+    }
+
+    .insearchbox{
+        left: 50%;
+        margin-left:  -150px;
+    }
+    .selectcustomer,.selectvendor{
+        left: 50%;
+    }
+    .ininvoice,.bbill{
+        left: 50%;
+        margin-left: 0px;
+    }
+    .indate{
+        left: 50%;
+        margin-left: 90px;
+    }
+    .induedate,.bduedate{
+        left: 50%;
+        margin-left: 0px;
+    }
+    .bdate{
+        left: 50%;
+        margin-left: 0px;
+    }
+
+    #updatedata{
+        margin-left: -300px;
+    }
+
+   #showdate{
+            margin-left: -150px;
+        }
+/*
+    #cntdiv{
+        position: relative;
+        top: 80px;
+        left: 50%;
+        margin-left: -500px;
+        width: 206px;
+        height: 100px;
+    }
+
+    #emplo{
+        margin-top: 8px;
+    }
+    #emplolabel{
+        margin-top: -15px;
+    }
+*/
+
+}
+
+
+@media only screen and (max-width:1120px){
+  .headtitle{
+    left:50%;
+    margin-left: -30px;
+  }
+
+}
+@media only screen and (max-width:1000px){
+  .headtitle{
+    left:50%;
+    margin-left: 0px;
+  }
+
+}
+
+
+@media only screen and (max-width:530px){
+    #cntdiv{
+        position: relative;
+        top: 80px;
+        left: 50%;
+        margin-left: -550px;
+        width: 206px;
+        height: 100px;
+
+    }
+
+
+}
+
+
+@media only screen and (max-width:1024px){
+
+  #searchbar{
+    left: 50%;
+      margin-left: 50px;
+  }
+
+
+}
+
+
+
+@media only screen and (max-width:768px){
+      /* .selectcustomer{
+        margin-left: -600px;
+    } */
+    #ctxtname{
+        margin-left: 40px;
+        width: 120px;
+    }
+    #searchbar{
+        margin-left: -200px;
+    }
+
+}
+
+@media only screen and (max-width: 840px) {
+#showdate{
+            margin-left: -280px;
+}
+#changepass{
+     left: 50%;
+     margin-left: -600px;
+    }
+
+#allpaidbtn{
+  left: 50%;
+  margin-left: -300px;
+}
+/* #searchbar{
+  left: 50%;
+    margin-left: -100px;
+}
+#addpurbtn{
+   top: 50px;
+    left: 50%;
+    margin-left:-360px;
+  position: relative;
+} */
+.headtitle{
+  left:50%;
+  margin-left: 0px;
+}
+
+/* .headtitle{
+  left:50%;
+  margin-left: 200px;
+} */
+
+}
+@media only screen and (max-width: 839px) {
+ #dropdownmain{
+        outline: none;
+        left: 50%;
+        margin-left: 20px;
+        position: relative;
+    }
+    #gross{
+        top: -40px;
+        margin-left: -10px;
+    }
+    #grosslabel{
+        top: -15px;
+        margin-left: 35px;
+    }
+    /* #searchbar{
+      margin-left: -150px;
+    } */
+    #allpaidbtn{
+      left: 50%;
+      margin-left: -700px;
+    }
+    /* #addpurbtn{
+       top: 50px;
+        margin-left:-400px;
+      position: relative;
+    } */
+}
+@media only screen and (max-width: 425px) {
+ #dropdownmain{
+        margin-left: -100px;
+     margin-top: -40px;
+    }
+     .selectcustomer{
+        margin-left: -30px;
+    }
+    #ctxtname{
+        margin-left: 35px;
+        width: 120px;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 560px) {
+#changepass{
+     margin-left: -400px;
+    }
+    /* #searchbar{
+      margin-left:100px;
+    }
+    #allpaidbtn{
+      margin-left: -400px;
+    } */
+
+    #searchbar{
+        margin-left: 40px;
+    }
+}
+
+@media only screen and (max-width: 465px) {
+#showdate{
+            margin-left: 20px;
+        }
+    #changepass{
+     margin-left: -500px;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+#showdate{
+            margin-left: -40px;
+        }
+
+}
+@media only screen and (max-width: 479px) {
+    #gross{
+        top: -20px;
+        margin-left: -180px;
+    }
+    #grosslabel{
+        top: 5px;
+        margin-left: -130px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+#changepass{
+        margin-left: -80px;
+    }
+    .selectcustomer{
+        margin-left: -35px;
+    }
+    #ctxtname{
+        margin-left: 35px;
+        width: 120px;
+    }
+    #searchbar{
+      margin-left:40px;
+    }
+    #allpaidbtn{
+      margin-left: -350px;
+    }
+
+}
+
+@media only screen and (max-width: 360px) {
+
+.selectcustomer,.selectvendor{
+        left: 50%;
+        margin-left: 0px;
+    }
+    .indate{
+        left: 50%;
+        margin-left: 80px;
+    }
+
+    .induedate,.bduedate{
+        left: 50%;
+        margin-left: 0px;
+        margin-top: -50px;
+    }
+
+     #updatedata{
+        margin-left: -50px;
+    }
+
+     .tabone{
+        font-size: 9px;
+    }
+    .tabtwo{
+        font-size: 9px;
+    }
+    .tabthree{
+        font-size: 9px;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+
+     .selectcustomer,.selectvendor{
+        left: 50%;
+        margin-left: 0px;
+    }
+    .indate{
+        left: 50%;
+        margin-left: 70px;
+    }
+
+    .induedate,.bduedate{
+        left: 50%;
+        margin-left: 0px;
+        margin-top: -50px;
+    }
+    #btnaction{
+        margin-left: -15px;
+        width: 280px;
+    }
+    #updatedata{
+        margin-left: -150px;
+    }
+    #insertdata{
+        margin-left: -50px;
+    }
+     .selectcustomer{
+        margin-left: -30px;
+    }
+    #ctxtname{
+        margin-left: 35px;
+        width: 120px;
+    }
+    #searchbar{
+      margin-left:20px;
+    }
+    #allpaidbtn{
+      margin-left: -320px;
+    }
+
+
+
+}

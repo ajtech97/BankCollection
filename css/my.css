@@ -1,0 +1,213 @@
+.formdiv {
+    box-shadow: 1px 2px 5px grey;
+    height: 500px;
+    width: 1270px;
+    border: solid red;
+    margin-left: -200px;
+}
+
+.forminnerdiv {
+    width: 83.8%;
+    height: 280px;
+    overflow: auto;
+    padding: 25px;
+    border: solid green;
+}
+
+.heading {
+    margin-top: -24px;
+    width: 92.12%;
+    height: 70px;
+    background-color: #009fb4;
+/*    padding-left: 25px;*/
+/*    border: solid blue;*/
+}
+#acctxt{
+    text-align: center;
+}
+#newcallstable{
+    
+}
+
+.heading h4 {
+    padding-top: 20px;
+    color: white !important;
+}
+ fieldset
+{
+    border: solid red 1px;
+    padding: 5px;
+}
+hr{
+    height: 0px !important;
+    border-top: 2px solid #a7a7a7 !important;
+   
+}
+#closebtn{
+    position: absolute;
+    right: 24px;
+    top: 29px;
+}
+.forcolor{
+    color: white;  
+}
+#closebtn{
+    background-color: #d13434;
+}
+.txtfields:focus{
+    outline: none;
+    border-bottom: solid 2px #009fb4;  
+}
+.mdl-badge{
+    background-color: red;
+}
+
+.asssignbtn{
+    height: 25px !important;
+    min-width: 25px !important;
+    width: 25px !important;
+    padding: 16px !important;
+}
+.add{
+    height: 20px !important;
+    min-width: 20px !important;
+    width: 20px !important;
+    padding: 16px !important;
+}
+.min
+{
+   height: 20px !important;
+    min-width: 20px !important;
+    width: 20px !important;
+    padding: 16px;
+/*    padding-bottom: 40px !important;  */
+/*    text-align: center;*/
+}
+.mdl-dialog{
+    width:auto !important;
+    top:0px;
+    //height: 100%;
+}
+
+.forwhitecolor{
+    color: white !important;
+}
+#henames{
+    z-index: 500;
+}
+.newcalltbldiv{
+    height: auto;
+    max-height: 350px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+
+.mdl-grid div{
+    //background-color: darkgrey;
+}
+
+.middlehead{
+    height: 50px;
+/*    cursor: pointer;*/
+    transition: .3s;
+}
+.imgdiv:hover{
+    border-radius: 0px; 
+}
+
+.imgdiv{
+    border-top-left-radius: 18px;
+    height:100%;
+    background-color: mediumseagreen !important;
+    width: 29%;
+    float: left;
+    color: white;
+    transition: .3s;
+}
+.headicons
+{
+    font-size: 30px !important;
+    margin-top: 10px;
+}
+
+.infodiv
+{
+    float: left;
+    height:100%;
+    background-color: #3ba3dd !important;
+    width: 70%;
+    color: white;
+    text-align: center;
+    margin-left: 0px;
+    position: relative;
+}
+
+.callscount,.calllabel{
+    color: white !important;
+    font-size: .9em;
+}
+.callscount
+{
+    margin-top:5px;  
+    position: relative;
+}
+.calllabel
+{
+    margin-top:-22px;  
+    position: relative;
+}
+
+.mobilenotxtfields{
+    height: 60px;
+    width: 150px;
+}
+.nonewcall{
+    display: none;
+}
+
+#hestatus{
+    height: 100px;
+    padding: 5px;
+}
+#hestatus>p
+{
+    font-size: 15px;
+}
+#hestatus>hr{
+    margin: -1em 0 !important;
+}
+#herealtimestatus{
+    height: 60px;
+    width:100%;
+}
+
+#realtimestatus{
+    height: auto;
+    max-height: 62px;
+    width: 100%;
+    overflow: auto;
+}
+#infodivs{
+    float: left;
+    margin-left: 10px;
+    width: 80px;
+}
+
+.hestatusmaindiv{
+    box-shadow: 1px 2px 4px grey;
+    background-color: white;
+}
+.fortxtchange{
+    font-weight: 100;
+}
+
+.contentoftooltip{
+    color: white !important;
+    text-transform:uppercase;
+}
+
+/********************************************************************************/
+
+
