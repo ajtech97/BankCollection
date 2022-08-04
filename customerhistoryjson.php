@@ -15,7 +15,7 @@ else{
 $data='{
 	"records": [';
 // where CId='$cid' order by (CurrDateTime)"
-$query=mysqli_query($link,"select * from customerpayment where CId='$cid' order by PaymentDate asc");
+$query=mysqli_query($link,"select * from customerpayment where CId='$cid'");
 
 //Names
 $query1=mysqli_query($link,"select FName,LName from customer where CId='$cid'");

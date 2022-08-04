@@ -137,18 +137,6 @@ else{
             <div class="mdl-cell mdl-cell--4-col"></div>
         </div>
 
-        <div class="mdl-grid">
-                  <div class="mdl-cell mdl-cell--4-col"></div>
-
-                  <div class="mdl-cell mdl-cell--4-col" style="font-size:20px;">
-                  <center>
-                        <?php echo date("d-m-Y");?>
-                  </center>
-                  </div>
-
-                  <div class="mdl-cell mdl-cell--4-col"></div>
-           
-        </div>        
         <!-- Empty Data Msg -->
         <center>
            <h4 class="custnotfound">Oops... No Customer Found!</h4>
