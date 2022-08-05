@@ -28,12 +28,12 @@ $tablename="customerpayment";
   if($ans=="yes" and $ans1==1)
   {
     echo "<script>alert('Payment Done Successfully')</script>";
-    echo "<script>window.location='customerpayment.php'</script>";
+    echo "<script>window.location='index.php'</script>";
   }
   else
   {
       echo "<script>alert('Payment Failed');</script>";
-      echo "<script>window.location='customerpayment.php';</script>";
+      echo "<script>window.location='index.php';</script>";
   }
   }
 }

@@ -23,6 +23,6 @@ else{
     mysqli_query($link,"UPDATE `adminlogs` SET `logoutdatetime`='$curdate $curtime' where logid=$logid") ;
 
     unset($_SESSION['username']);
-    header("location:index.php");
+    header("location:login.php");
 }
 ?>

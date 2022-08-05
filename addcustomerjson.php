@@ -34,10 +34,11 @@ while($row=mysqli_fetch_array($query))
     }
     $emailid= $row['Emailid'];
     $city= $row["City"];
+    $collectionstartdate = $row["CollectionStartDate"];
 
-    $currdate=date("d-m-Y h:i:s A",strtotime($row['CurrDateTime']));
-
-    $data.= '{"CustID":"'.$custid.'","fname":"'.ucwords($fname).'","lname":"'.ucwords($lname).'","amount":"'.$amount.'","paid":"'.$paid.'","add":"'.$address.'","mob1":"'.$mobile.'","mob2":"'.$mobile2.'","email":"'.$emailid.'","city":"'.$city.'","date":"'.$currdate.'","currdate":"'.$currdate.'"},';
+    // $currdate=date("d-m-Y h:i:s A",strtotime($row['CurrDateTime']));
+    $currdate=date("d-m-Y");
+    $data.= '{"CustID":"'.$custid.'","fname":"'.ucwords($fname).'","lname":"'.ucwords($lname).'","amount":"'.$amount.'","collectionstartdate":"'.$collectionstartdate.'","paid":"'.$paid.'","add":"'.$address.'","mob1":"'.$mobile.'","mob2":"'.$mobile2.'","email":"'.$emailid.'","city":"'.$city.'","date":"'.$currdate.'","currdate":"'.$currdate.'"},';
 //    $counter++;
 }
 $data.=']}';

@@ -51,7 +51,7 @@ else{
 
         <nav class="demo-navigation mdl-navigation mdl-color--blue-grey-800">
 
-                <a class="mdl-navigation__link menu2" href="customerpayment.php">
+                <a class="mdl-navigation__link menu2" href="index.php">
                 <i class="material-icons">money</i>
                 <b class="fortxtchange menuname2">Customer Payment</b>
                 </a>

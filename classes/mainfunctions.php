@@ -2,6 +2,7 @@
 error_reporting(0);
 date_default_timezone_set('Asia/kolkata');
 
+
 $link = mysqli_connect('localhost','root','','bankcollection');
 
 class maindbfunctions
@@ -149,7 +150,7 @@ class maindbfunctions
 
      function checkcustmobnoarepresentornot($tablename,$colmob,$mobno,$CId)
      {
-       $link=mysqli_connect('localhost','root','','bankcollection');
+       $link = mysqli_connect('localhost','root','','bankcollection');
        $count=0;
        $query=mysqli_query($link,"select count(*) as cou from ".$tablename." where ".$colmob."='".$mobno."' and CId<>'$CId' and cust_display_or_not='YES'");
        $row=mysqli_fetch_array($query);
@@ -165,14 +166,14 @@ class maindbfunctions
 
      function updatecustomerdata($tablename,$fname,$lname,$amount,$custfn,$email,$city,$address,$mobno,$anomobno,$state,$collectionstartdate,$CId)
      {
-        $link=mysqli_connect('localhost','root','','bankcollection');
+        $link = mysqli_connect('localhost','root','','bankcollection');
         $query=mysqli_query($link,"update ".$tablename." set FName='$fname',LName='$lname',FullName='$custfn',Amount='$amount',Address='$address',City='$city',Emailid='$email',Mobile='$mobno',Mobile2='$anomobno',State='$state',CollectionStartDate='$collectionstartdate' where CId=$CId");
         return $query;
      }
 
      function customercount()
      {
-       $link=mysqli_connect('localhost','root','','bankcollection');
+       $link = mysqli_connect('localhost','root','','bankcollection');
        $query=mysqli_query($link,"select count(*) as cou from customer where cust_display_or_not='YES'");
        $row=mysqli_fetch_array($query);
        $count=$row['cou'];
@@ -184,7 +185,7 @@ class maindbfunctions
 
      function getcustomerlist()
      {
-         $link=mysqli_connect('localhost','root','','bankcollection');
+         $link = mysqli_connect('localhost','root','','bankcollection');
          $data="";
          $auth = mysqli_query($link,"Select CId,FName,LName from customer where cust_display_or_not like 'YES'");
          while($row=mysqli_fetch_array($auth))

@@ -25,7 +25,7 @@ else
      <script src="js/loadermain.js"></script>
 
     <script>
-    setInterval(function(){ window.location.href="customerpayment.php"; }, 3000);
+    setInterval(function(){ window.location.href="index.php"; }, 3000);
     </script>
 
 </head>

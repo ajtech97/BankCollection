@@ -113,7 +113,7 @@ else{
                           </div>
           </header>
       <!-- Nav  -->
-      
+
       <?php include("nav.php");?>
 
       <!-- Main   -->
@@ -156,6 +156,7 @@ else{
                                            <th class="mdl-data-table__cell--non-numeric">Cust Name</th>
                                            <th class="mdl-data-table__cell--non-numeric">Cust Mob No</th>
                                            <th class="mdl-data-table__cell--non-numeric">Amount</th>
+                                           <th class="mdl-data-table__cell--non-numeric">Collection Start Date</th>
                                            <th class="mdl-data-table__cell--non-numeric">Edit/View</th>
                                            <th class="mdl-data-table__cell--non-numeric">Delete</th>
 
@@ -181,12 +182,15 @@ else{
                            <input type="hidden" id="tbladdress{{x.CustID}}" value="{{x.add}}">
                            <input type="hidden" id="tblmobile1{{x.CustID}}" value="{{x.mob1}}">
                            <input type="hidden" id="tblmobile2{{x.CustID}}" value="{{x.mob2}}">
+                           <input type="hidden" id="tblcollectionstartdate{{x.CustID}}" value="{{x.collectionstartdate}}">
+                           
 
                                    <td data-label="Cust Id" class="mdl-data-table__cell--non-numeric ng-binding">{{$index + 1}}</td>
                                    <td data-label="Cust Name" class="mdl-data-table__cell--non-numeric ng-binding">{{x.fname+" "+x.lname}}</td>
                                    <td data-label="Cust Mob No" class="mdl-data-table__cell--non-numeric ng-binding">{{x.mob1}}</td>
                                    <td data-label="Amount" class="mdl-data-table__cell--non-numeric ng-binding">{{x.amount}}</td>
-
+                                   <td data-label="Collection Start Date" class="mdl-data-table__cell--non-numeric ng-binding">{{x.collectionstartdate}}</td>
+                                   
                                            <td data-label="Edit/View" class="mdl-data-table__cell--non-numeric ng-binding">
                                               <button class="mdl-button mdl-js-button mdl-button--fab  mdl-button--colored asssignbtn" title="Edit/View Customer" onclick='editdata(this.id,"update")' id="{{x.CustID}}" for="kkk">
                                                   <div class="mdl-tooltip mdl-tooltip--large" for="kkk">Edit/View Customer</div>
@@ -415,6 +419,7 @@ else{
         document.getElementById("address").value = document.getElementById("tbladdress" + id).value;
         document.getElementById("city").value = document.getElementById("tblcity" + id).value;
         document.getElementById("email").value = document.getElementById("tblemail" + id).value;
+        document.getElementById("collectionstartdate").value = document.getElementById("tblcollectionstartdate" + id).value;
     }
     </script>
 
